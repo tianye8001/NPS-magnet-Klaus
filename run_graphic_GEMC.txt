@@ -1,0 +1,42 @@
+NPS field is at (0,0,0)cm
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_hallfield.gcard -BEAM_P="e-,1*GeV,0*deg,0*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(0,0,90)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -N=1
+
+NPS field is at (0,0,1400)cm
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_hallfield.gcard -BEAM_P="e-,1*GeV,0*deg,0*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(0,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,0*mm, 0*mm, 14000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 0*deg"  -N=10
+
+no NPS field is at (0,0,1400)cm
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2022/analysis/HallC_beamtest_nofield.gcard -BEAM_P="e-,1*GeV,0*deg,0*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(0,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,0*mm, 0*mm, 14000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 0*deg"  -N=10
+
+NPS field is at (-454.89,0,1400)cm
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_hallfield.gcard -BEAM_P="e-,1*GeV,18*deg,-180*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(-422.4,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-4548.9*mm, 0*mm, 14000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 0*deg"  -N=10
+
+no NPS field is at (-454.89,0,1400)cm
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2022/analysis/HallC_beamtest_nofield.gcard -BEAM_P="e-,1*GeV,18*deg,-180*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(-422.4,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -N=10
+
+NPS field is at (-454.89,0,1400)cm rotate 18 deg around Y-aixs
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_hallfield.gcard -BEAM_P="e-,1*GeV,18*deg,-180*deg" -SPREAD_P="1*GeV,0*deg,0*deg" -BEAM_V="(-422.4,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-4548.9*mm, 0*mm, 14000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 18*deg, 0*deg"  -N=10
+
+
+high energy electron with NPS field is at (-454.89,0,1400)cm rotate 18 deg around Y-aixs
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_hallfield.gcard -BEAM_P="e-,5.5*GeV,18*deg,-180*deg" -SPREAD_P="5.5*GeV,0*deg,0*deg" -BEAM_V="(-422.4,0,1300)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-4548.9*mm, 0*mm, 14000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 18*deg, 0*deg"  -N=10
+
+../../../../../solid_gemc/source/2.9/solid_gemc hallc2022.gcard -BEAM_P="e-,8.494*GeV,0*deg,0*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,-100)cm" -SPREAD_V="(0.25,0)cm" -N=1
+
+
+../../../../../solid_gemc/source/2.9/solid_gemc hallc2022.gcard -BEAM_P="e-,11*GeV,0*deg,0*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,0)cm" -SPREAD_V="(0.25,0)cm" -N=1
+
+../../../../../solid_gemc/source/2.9/solid_gemc hallc2022.gcard -BEAM_P="e-,8.494*GeV,0*deg,0*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,-100)cm" -SPREAD_V="(0.25,0)cm" -N=1
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2022/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,10.6*GeV,18*deg,-180*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,0)cm" -SPREAD_V="(0,0)cm" -N=10
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2022/analysis/HallC_beamtest_nofield.gcard -BEAM_P="e-,0.01*GeV,18*deg,-180*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(-580,0,1800)cm" -SPREAD_V="(0,0)cm" -N=10
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,0.5*GeV,18*deg,-180*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(-550,0,1700)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-550*mm, 0*mm, 1700*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 18*deg"  -N=1
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,0.5*GeV,18*deg,-180*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(-550,0,1700)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-550*mm, 0*mm, 1800*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 18*deg"  -N=1
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,0.5*GeV,0*deg,0*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,0)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,0*mm, 0*mm, 1800*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 18*deg"  -N=1
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,0.01*GeV,0*deg,0*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(0,0,90)cm" -SPREAD_V="(0,0)cm" -FIELD_VERBOSITY=2 -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-550*mm, 0*mm, 1700*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, 0*deg, 18*deg" -N=1
+
+solid_gemc /work/halla/solid/tianye/HallCbeamtest/solid_gemc_Ye_modify_v2/prototype/ec_pro/HallC2025/analysis/HallC_beamtest_field.gcard -BEAM_P="e-,0.05*GeV,18*deg,-180*deg" -SPREAD_P="0*GeV,0*deg,0*deg" -BEAM_V="(-454.89,0,1400)cm" -SPREAD_V="(0,0)cm" -DISPLACE_FIELDMAP="NPS-magnet-Klaus,-4873.8*mm, 0*mm, 15000*mm" -ROTATE_FIELDMAP="NPS-magnet-Klaus, 0*deg, -18*deg, 0*deg" -N=1
